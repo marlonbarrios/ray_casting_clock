@@ -32,6 +32,21 @@ const sketch = ({ width, height, canvas }) => {
   // Set document title
   if (typeof document !== 'undefined') {
     document.title = 'Ray Casting Clock - Marlo Barrios Solano';
+    
+    // Center the canvas
+    if (canvas && canvas.parentElement) {
+      canvas.parentElement.style.display = 'flex';
+      canvas.parentElement.style.justifyContent = 'center';
+      canvas.parentElement.style.alignItems = 'center';
+      canvas.parentElement.style.minHeight = '100vh';
+      canvas.parentElement.style.width = '100%';
+    }
+    
+    // Also style the canvas itself
+    if (canvas) {
+      canvas.style.display = 'block';
+      canvas.style.margin = '0 auto';
+    }
   }
   
   // Initialize p5.js in instance mode - don't pass canvas, let p5 create its own
