@@ -4,6 +4,8 @@
 
 ![Ray Casting Clock](1.png)
 
+**[🌐 Live App](https://marlonbarrios.github.io/ray_casting_clock/)**
+
 A generative art piece that combines ray casting visualization with real-time clock functionality. The sketch creates a dynamic, interactive visualization where rays emanate from a moving point that follows the current time, casting light rays that interact with vertical obstacles representing the 24 hours of the day.
 
 ## Features
