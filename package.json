@@ -1,0 +1,23 @@
+{
+  "name": "time_engine-mondrian",
+  "version": "1.0.0",
+  "description": "Time Engine generative art project",
+  "main": "sketch.js",
+  "scripts": {
+    "start": "canvas-sketch sketch-canvas-sketch.js --open",
+    "dev": "canvas-sketch sketch-canvas-sketch.js --open --hot",
+    "build": "canvas-sketch sketch-canvas-sketch.js --build --dir=dist",
+    "export": "canvas-sketch sketch-canvas-sketch.js --export"
+  },
+  "keywords": [
+    "generative-art",
+    "canvas-sketch"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "canvas-sketch": "0.7.6",
+    "canvas-sketch-util": "^1.10.0",
+    "p5": "^1.11.11"
+  }
+}
